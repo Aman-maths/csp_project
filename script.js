@@ -17,6 +17,8 @@ const categorySelect = document.getElementById('category');
 let shuffledQuestions, currentQuestionIndex, score;
 let totalQuestions;
 
+let a = 1;
+
 // Load categories when page loads
 window.onload = loadCategories;
 
